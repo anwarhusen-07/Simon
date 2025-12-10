@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.span-container{
+    margin-top: 2rem;
+    font-size: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.game-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    border: 1px dashed black;
+    border-radius: 0.5rem;
+    width: 25rem;
+    flex-wrap: wrap;
+    margin: 3rem auto;
+    padding: 1rem;
+    cursor: pointer;
+
+    
+}
+.game-container .btn{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 0.5rem;
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}
+.btn:hover{
+    scale: 1.02;
+}
+
+.blink{
+    opacity: 0.3;
+    transition: 0.3s;
+}
+
+#rules{
+    position: absolute;
+    right: 2rem;
+    font-size: 1.5rem;
+    background-color: rgb(96, 92, 92);
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 8px 20px;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+h2{
+    color: rgb(157, 19, 127);
+    display: block;
+    width: fit-content;
+    padding: 8px 20px;
+    border-radius: 0.5rem;
+    border: none;
+    font-weight: 600;
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+.flash{
+    background-color: white;
+}
+.userFlash{
+    background-color: black;
+}
+
+
+
