@@ -21,6 +21,7 @@ function btnFlash(btn) {
     setTimeout(() => {
         btn.classList.remove("flash");
     }, 300);
+    
 }
 
 function userFlash(btn) {
@@ -36,6 +37,7 @@ function levelUp() {
 
     let randColor = btns[Math.floor(Math.random() * btns.length)];
     gameSeq.push(randColor);
+    console.log(gameSeq);
     console.log(gameSeq)
     let flashBtn = document.querySelector("." + randColor);
 
@@ -51,8 +53,8 @@ function checkAns(idx) {
     } else {
        
             
-            h2.innerText = " Wrong ans! Press any key to play again";
-            h2.style.fontSize="3rem"
+            h2.innerText = `  \n Wrong ans! your cleared ${level-1} levels. Press any key to play again `;
+            h2.style.fontSize="2rem"
             
             gameOver();
      
