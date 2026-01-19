@@ -88,6 +88,59 @@ h2{
 .userFlash{
     background-color: black;
 }
+@media (max-width: 835px){
+body{
+        padding: 10px 5px;
+    }
+
+
+
+    #title{
+        font-size: 2rem;
+    }
+    #rules{
+        font-size: 1rem;
+        right: 1rem;
+    }
+}
+@media (max-width: 768px){
+    body{
+        padding: 10px 5px;
+    }
+
+    .game-container{
+        width: 20rem;
+        height: 20rem;
+    }
+    .game-container .btn{
+        width: 7rem;
+        height: 7rem;
+    }
+    #title{
+        font-size: 1.5rem;
+    }
+    #rules{
+        font-size: 1rem;
+        right: 0rem;
+    }
+}
+@media (max-width: 450px){
+.game-container{
+        width: 15rem;
+        height: 15rem;
+    }
+    .game-container .btn{
+        width: 5rem;
+        height: 5rem;
+    }
+    #title{
+        font-size: 1rem;
+    }
+    #rules{
+        font-size: 0.5rem;
+        right: 0rem;
+    }
+}
 
 
 
